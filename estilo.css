@@ -42,8 +42,13 @@ iframe{
     text-align: center;
     flex-grow: 1;
 }
+.card{
+    border: 3px solid black;
+    padding: 5px;
+    margin: 10px
+}
 
-#tarjetas{
+#tarjetlas{
     display: flex;
     flex-direction: row;
     justify-content:space-evenly;
