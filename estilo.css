@@ -6,9 +6,10 @@
     /* display: inline-block; */
 }
   
-body{
+/* body{
     height: 800px;
-}
+} */
+
 main{
     align-content: center;
     justify-content: center;
@@ -16,13 +17,16 @@ main{
 
   /* mapa de google maps */
 .mapas{
-    display: flex;
+    margin: 25px;
+    padding: 10px;
+
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 600px;
     height: 350px;
-    outline: 2px solid black;
+    outline: 2px solid black; */
 }
 
 iframe{
