@@ -3,35 +3,12 @@
 * {
     margin: 0;
     padding: 0; 
-    /* display: inline-block; */
-}
-  
-/* body{
-    height: 800px;
-} */
-
-main{
-    align-content: center;
-    justify-content: center;
 }
 
-  /* mapa de google maps */
-.mapas{
-    margin: 25px;
-    padding: 10px;
-
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 600px;
-    height: 350px;
-    outline: 2px solid black; */
-}
-
-iframe{
-    width: 400px;
-    height: 400px;
+header {
+   position: sticky;
+   top: 0px;
+   z-index: 100;
 }
 
 .container-1{
@@ -85,7 +62,21 @@ bottom: 19px;
     align-self: center;
     margin: 50px;
 }
-
+.formulario{
+    background-color: #828385;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+}
+.grupo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button{
+    margin: 10px;
+}
 
 /*Botones redes sociales*/
 
