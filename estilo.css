@@ -80,6 +80,14 @@ bottom: 19px;
     width: 100%;
 }
 
+.logo_logo{
+    animation: backInRight;
+    background-color: #ff003c;
+    animation-duration: 1s;
+}
+
+    
+
 .logos{
     display: flex;
     flex-wrap: wrap;
