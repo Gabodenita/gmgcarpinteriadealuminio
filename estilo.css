@@ -10,6 +10,10 @@ header {
    top: 0px;
    z-index: 100;
 }
+h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 60px !important;
+}
 
 .container-1{
     display: flex;
@@ -73,10 +77,8 @@ bottom: 19px;
     align-items: center;
     border-radius: 25px;
 }
-.grupo{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.input{
+    width: 80%;
 }
 .button{
     padding: 10px;
