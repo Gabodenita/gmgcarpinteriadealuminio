@@ -10,9 +10,23 @@ header {
    top: 0px;
    z-index: 100;
 }
+.description{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    font-family: roboto;
+    height: 100%;
+    padding: 5px;
+}
+
 h1{
     font-family: 'Bebas Neue', sans-serif;
     font-size: 60px !important;
+}
+
+.btn-consulta{
+    font-size:30px !important;
+    margin-top: 20px;
 }
 
 .container-1{
