@@ -10,6 +10,7 @@ header {
    top: 0px;
    z-index: 100;
 }
+
 .description{
     display: flex;
     align-items: center;
@@ -41,6 +42,7 @@ h1{
     text-align: center;
     flex-grow: 1;
 }
+
 .card{
     border: 3px solid black;
     padding: 5px;
@@ -54,6 +56,11 @@ h1{
     text-align: left;
     flex-wrap: wrap;
 }
+
+h6{
+    padding-top: 10px;
+}
+
 .premium{
     width: auto;
     background-color: #ff003c;
@@ -63,6 +70,7 @@ h1{
     margin: 0 !important;
     padding: 25px
 }
+
 #galeria img{
     width: 100%;
     height: auto;
@@ -71,7 +79,6 @@ h1{
 #galeria img:hover{
     border: 5px solid white;
 }
-
 
 .btn-primary-1{
 position: absolute;
@@ -84,6 +91,7 @@ bottom: 19px;
     align-self: center;
     margin: 50px;
 }
+
 .formulario{
     background-color: #8fb3fa;
     display:flex;
@@ -91,13 +99,35 @@ bottom: 19px;
     align-items: center;
     border-radius: 25px;
 }
+
 .input{
     width: 80%;
 }
+
 .button{
     padding: 10px;
     height: 100%;
     width: 100%;
+}
+
+.datosPersonales{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: Segoe;
+    background-color: #cdcbcb;
+    height: 80px;
+    flex: 40%;
+}
+
+.datosEmpresa{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: roboto;
+    height: 80px;
 }
 
 .logo_logo{
@@ -106,13 +136,13 @@ bottom: 19px;
     animation-duration: 1s;
 }
 
-    
-
 .logos{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
+    margin-top: 20px;
+    padding: 20px;
     margin-bottom: 50px;
 }
 
@@ -120,6 +150,7 @@ bottom: 19px;
 height: 100%;
 width: auto;
 }
+
 @media(max-width : 576px){
     .logo_imagen{
         height: 20px;
