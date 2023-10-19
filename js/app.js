@@ -7,7 +7,7 @@ btnEnvio.addEventListener('click',function(e) {
     const email= document.getElementById('email').value;
     const localidad= document.getElementById('localidad').value;
     const mensaje= document.getElementById('mensaje').value;
-    window.location.href= `mailto:gabriel.denita@gmail.com?
+    window.location.href= `mailto:gaston_frias@gmgcarpinteriadealuminio.com?
     subject=envioDesdeFormulario&body=Nombre%3A%20${nombre}%0ACorreo%3A%20${email}
     %0ALocalidad%3A%20${localidad}%0AMensaje%3A%20${mensaje}`
 })
