@@ -61,6 +61,12 @@ h6{
     padding-top: 10px;
 }
 
+p {
+    margin-bottom: 0rem;
+    font-size: 12px;
+    font-family: arial;
+}
+
 .premium{
     width: auto;
     background-color: #ff003c;
@@ -119,6 +125,11 @@ bottom: 19px;
     background-color: #cdcbcb;
     height: 80px;
     flex-wrap: wrap;
+}
+
+.telefono{
+    text-decoration: none;
+    color: black;
 }
 
 .datosEmpresa{
