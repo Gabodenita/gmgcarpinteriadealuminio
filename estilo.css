@@ -11,6 +11,8 @@ header {
    z-index: 100;
 }
 
+
+
 .description{
     display: flex;
     align-items: center;
@@ -133,12 +135,13 @@ bottom: 19px;
 }
 
 .datosEmpresa{
+    background-color: white;
     display: flex;
     align-items: center;
     flex-direction: row;
     justify-content: space-around;
-    font-family: roboto;
-    height: 80px;
+    /* font-family: roboto; */
+    height: auto;
     flex-wrap: wrap;
 }
 
@@ -163,15 +166,38 @@ height: 100%;
 width: auto;
 }
 
+.pegado{
+    position: fixed;
+    top: 30px;
+    right: 60px;
+    z-index: 100;
+}
+
 @media(max-width : 576px){
     .logo_imagen{
         height: 20px;
         width: auto;
         padding: 3px;
     }
+    
 }
 
+@media(max-width : 991px){
+    .pegado{
+        position: fixed;
+        top:60px;
+        right: 40%;
+        z-index: 100;
+    }
+}
 /*Botones redes sociales*/
+
+.whatsaap{
+    text-align: center;
+    margin : 0px;
+    padding: 0px;
+
+}
 
 .redesSociales {
     background-color: rgba(255, 255, 255, 0.05);
@@ -184,7 +210,7 @@ width: auto;
 .social-icons {
     padding: 0;
     list-style: none;
-    margin: 1em;
+    margin: 0px;
 }
 
 .social-icons li {
@@ -232,9 +258,3 @@ width: auto;
     transition: all 265ms ease-in;
 }
 
-.pegado{
-    position: fixed;
-    top: 30px;
-    right: 60px;
-    z-index: 100;
-}
